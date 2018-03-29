@@ -1,0 +1,34 @@
+{
+  "name": "@ebarahona/edcli",
+  "version": "1.0.0",
+  "description": "Create new NodeJS empty files and module directories with touch and mkdir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": "./program.js",
+  "keywords": [
+    "NodeJS",
+    "generator",
+    "create",
+    "file",
+    "directory",
+    "touch",
+    "mkdir",
+    "init"
+  ],
+  "author": "Ed Barahona Your Name <ebarahona@gmail.com> (http://edbarahona.com)",
+  "repository": { 
+     "type": "git",
+      "url": "https://github.com/ebarahona/edcli.git"
+  },
+  "bugs": "https://github.com/ebarahona/edcli/issues",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security",
+    "get-installed-path": "^4.0.8",
+    "inquirer": "^5.2.0"
+  }
+}
