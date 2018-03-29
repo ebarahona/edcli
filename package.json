@@ -1,6 +1,6 @@
 {
   "name": "@ebarahona/edcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create new NodeJS empty files and module directories with touch and mkdir",
   "main": "index.js",
   "scripts": {
