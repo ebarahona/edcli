@@ -10,4 +10,4 @@ const API = {
     helloWorld
 };
 
-module.export = API;
+module.exports = API;
