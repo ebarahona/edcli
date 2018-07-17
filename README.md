@@ -4,9 +4,13 @@ npm package to create directories and files with basic node templates using UNIX
 ## Overview
 I work with NodeJS for server side applications and manually create modules and JS files, although simple and small I got tired of repeating the same small task so I wrote this to automatically generate common files.  This also helps to keep things consistent.
 
-Why "edcli"?  Because, "ed-cli" was already taken.
+Why "edcli"?  Because, "ed-cli" and "nodge-gen" were already taken.
 
 ## Install
+From NPM
+
+npm install -g @ebarahona/edcli
+
 Download or clone repo then:
 
 $ cd edcli
@@ -51,7 +55,7 @@ const API = {
     helloWorld
 };
 
-module.export = API;
+module.exports = API;
 ```
 
 ## TODO:
