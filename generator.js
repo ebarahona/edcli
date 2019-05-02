@@ -32,7 +32,7 @@ const createFile = (FILE_NAME, FILE_DIR)=> {
     }
     FILE_NAME = formatName(FILE_NAME);
     if (!fs.existsSync(`${FILE_DIR}/${FILE_NAME}.js`)){
-        getInstalledPath('edcli').then((path) => {
+        getInstalledPath('@ebarahona/edcli').then((path) => {
             TEMPLATE_DIR = path;
             fs.copyFile(`${TEMPLATE_DIR}/${TEMPLATE}`, `${FILE_DIR}/${FILE_NAME}.js`, (err) => {
             if (err) throw err;
